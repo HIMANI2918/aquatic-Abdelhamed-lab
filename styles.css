@@ -487,3 +487,12 @@ section[id] { scroll-margin-top: 4.5rem; }
   border-radius: 0 var(--radius) var(--radius) 0;
 }
 #groups:empty { min-height: 40vh; }
+
+.year-count { font-family: "Inter", system-ui, sans-serif; font-size: .85rem; font-weight: 500; color: var(--muted); }
+.pub-title { font-weight: 500; }
+
+/* ---------- Team: centred rows (works for any number of members) ---------- */
+.members-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+.members-grid .member { flex: 0 1 195px; }
+.member .photo img { object-position: center top; }
+.member-role { font-size: .88rem; }
