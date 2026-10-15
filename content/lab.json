@@ -1,9 +1,15 @@
 {
-  "_help": "Lab name, tagline and the address shown in the Contact section.",
+  "_help": "Lab name, titles and contact address. Edit the text between the quotes. These apply to ALL pages: 'brand' is the name at the top-left of every page, 'site_title' is the browser-tab title, 'hero_title' and 'hero_lead' are the big heading and sentence on the Home page, 'footer_name' is the name in the footer.",
+
+  "brand": "Abdelhamed-Aquatic Animal Health Management Lab",
+  "site_title": "Abdelhamed-Aquatic Animal Health Management Lab",
+  "hero_title": "Abdelhamed-Aquatic Animal Health Management Lab",
+  "hero_lead": "Advancing the health, welfare and sustainable production of aquatic animals.",
+  "footer_name": "Abdelhamed-Aquatic Animal Health Management Lab",
 
   "contact_intro": "For enquiries about research, collaboration or joining the lab, please email",
   "address_lines": [
-    "Aquatic Animal Health Management Lab",
+    "Abdelhamed-Aquatic Animal Health Management Lab",
     "Department of Comparative Biomedical Sciences",
     "College of Veterinary Medicine, Mississippi State University",
     "240 Wise Center Drive, P.O. Box 6100",
