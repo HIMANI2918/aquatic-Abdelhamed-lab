@@ -1,0 +1,23 @@
+{
+  "_help": "Principal Investigator. Edit the text between the quotes. Keep the commas and quote marks.",
+
+  "name": "Dr. Hossam Abdelhamed, PhD",
+  "title": "Associate Professor",
+  "department": "Comparative Biomedical Sciences",
+  "institution": "College of Veterinary Medicine, Mississippi State University",
+  "disciplines": ["Aquatic", "Infectious Diseases and Immunology"],
+
+  "photo": "images/pi.jpg",
+
+  "email": "ha240@msstate.edu",
+  "phone": "(662) 325-7726",
+  "office": "R-1011",
+  "profile_url": "https://www.vetmed.msstate.edu/directory/ha240",
+
+  "research_interests": "I conduct research on bacterial pathogens of fish including *Edwardsiella ictaluri* and *Aeromonas hydrophila* and I have research in the foodborne pathogen *Listeria monocytogenes*. I aim to understand the molecular pathogenesis and identify virulence factors. I employ comparative genomics, functional genomics, and molecular microbiology techniques, as well as next-generation sequencing and bioinformatics to evaluate the host-microbe interactions and answer bacterial pathogenesis questions.",
+
+  "education": [
+    "Doctor of Philosophy (Ph.D.), Fish Diseases and Management, Benha University, 2012",
+    "Master of Science (M.S.), Fisheries Management, 2008"
+  ]
+}

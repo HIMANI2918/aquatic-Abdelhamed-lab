@@ -1,0 +1,34 @@
+{
+  "_help": "Publications. Each { ... } is one paper. Years and order are sorted automatically (newest first). Put the paper link in \"link\" (leave \"\" for no link). Use *stars* around a word to make it italic, e.g. *Edwardsiella ictaluri*. To add a paper, copy one { ... } block, add a comma after the block above it, and paste.",
+
+  "profiles": [
+    { "label": "MSU Faculty Profile", "url": "https://www.vetmed.msstate.edu/directory/ha240#publications" },
+    { "label": "Google Scholar", "url": "" },
+    { "label": "ORCID", "url": "" },
+    { "label": "ResearchGate", "url": "" }
+  ],
+
+  "publications": [
+    {
+      "year": 2024,
+      "authors": "Abdelhamed H., et al.",
+      "title": "[Title of the *Plesiomonas shigelloides* plasmid paper]",
+      "journal": "[Journal, volume, pages]",
+      "link": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Abdelhamed H., et al.",
+      "title": "[Title of the pEIMS-171561 plasmid paper, *Edwardsiella ictaluri*]",
+      "journal": "[Journal, volume, pages]",
+      "link": ""
+    },
+    {
+      "year": 2019,
+      "authors": "Abdelhamed H., et al.",
+      "title": "[Title of the pEPMS-18199 plasmid paper, *Edwardsiella piscicida*]",
+      "journal": "[Journal, volume, pages]",
+      "link": ""
+    }
+  ]
+}

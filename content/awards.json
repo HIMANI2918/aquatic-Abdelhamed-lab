@@ -1,0 +1,24 @@
+{
+  "_help": "Awards and honors, in groups. Each item is { ... }. To add an award, copy one item block, add a comma after the block above it, and paste. To add a group, copy a whole group block.",
+
+  "groups": [
+    {
+      "title": "Principal Investigator",
+      "subtitle": "Awards, fellowships and honors.",
+      "items": [
+        { "year": "20XX", "title": "[Award or honor title]", "organization": "[Awarding organization]", "note": "" },
+        { "year": "20XX", "title": "[Award or honor title]", "organization": "[Awarding organization]", "note": "" },
+        { "year": "20XX", "title": "[Award or honor title]", "organization": "[Awarding organization]", "note": "" }
+      ]
+    },
+    {
+      "title": "Lab Members",
+      "subtitle": "Student and trainee awards, travel grants and presentation prizes.",
+      "items": [
+        { "year": "20XX", "title": "[Award title] - [Member name]", "organization": "[Awarding organization]", "note": "" },
+        { "year": "20XX", "title": "[Award title] - [Member name]", "organization": "[Awarding organization]", "note": "" },
+        { "year": "20XX", "title": "[Award title] - [Member name]", "organization": "[Awarding organization]", "note": "" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_help": "Gallery photos. Put each picture in images/gallery/ and list it here. Each { ... } is one photo; copy a block (add a comma after the one above) to add more. Change \"caption\" to describe the photo, or use \"\" for no caption.",
+
+  "photos": [
+    {"photo": "images/gallery/photo1.jpg", "caption": "Photo caption 1"},
+    {"photo": "images/gallery/photo2.jpg", "caption": "Photo caption 2"},
+    {"photo": "images/gallery/photo3.jpg", "caption": "Photo caption 3"},
+    {"photo": "images/gallery/photo4.jpg", "caption": "Photo caption 4"},
+    {"photo": "images/gallery/photo5.jpg", "caption": "Photo caption 5"},
+    {"photo": "images/gallery/photo6.jpg", "caption": "Photo caption 6"},
+    {"photo": "images/gallery/photo7.jpg", "caption": "Photo caption 7"},
+    {"photo": "images/gallery/photo8.jpg", "caption": "Photo caption 8"},
+    {"photo": "images/gallery/photo9.jpg", "caption": "Photo caption 9"},
+    {"photo": "images/gallery/photo10.jpg", "caption": "Photo caption 10"},
+    {"photo": "images/gallery/photo11.jpg", "caption": "Photo caption 11"},
+    {"photo": "images/gallery/photo12.jpg", "caption": "Photo caption 12"}
+  ]
+}

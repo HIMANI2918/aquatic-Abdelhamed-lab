@@ -1,0 +1,42 @@
+{
+  "_help": "Lab activities, in groups. Each item is { ... }. To add an activity, copy one item block, add a comma after the block above it, and paste.",
+
+  "groups": [
+    {
+      "title": "Current Projects",
+      "subtitle": "Ongoing research and funded programs.",
+      "items": [
+        { "tag": "Project", "date": "20XX - Present", "title": "[Project title]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Project", "date": "20XX - Present", "title": "[Project title]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Project", "date": "20XX - Present", "title": "[Project title]", "description": "One or two sentences about what the activity involves." }
+      ]
+    },
+    {
+      "title": "Field & Laboratory Work",
+      "subtitle": "Sampling, diagnostics and experiments.",
+      "items": [
+        { "tag": "Field work", "date": "Month 20XX", "title": "[Farm / site sampling]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Laboratory", "date": "Month 20XX", "title": "[Diagnostic or molecular work]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Experiment", "date": "Month 20XX", "title": "[Challenge study or trial]", "description": "One or two sentences about what the activity involves." }
+      ]
+    },
+    {
+      "title": "Teaching & Training",
+      "subtitle": "Courses, workshops and student mentoring.",
+      "items": [
+        { "tag": "Course", "date": "Semester 20XX", "title": "[Course title]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Workshop", "date": "Month 20XX", "title": "[Workshop or training title]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Mentoring", "date": "20XX", "title": "[Student research program]", "description": "One or two sentences about what the activity involves." }
+      ]
+    },
+    {
+      "title": "Outreach & Extension",
+      "subtitle": "Working with farmers, veterinarians and the community.",
+      "items": [
+        { "tag": "Outreach", "date": "Month 20XX", "title": "[Farmer meeting / field day]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Conference", "date": "Month 20XX", "title": "[Conference or seminar presentation]", "description": "One or two sentences about what the activity involves." },
+        { "tag": "Collaboration", "date": "20XX", "title": "[Partner institution or industry group]", "description": "One or two sentences about what the activity involves." }
+      ]
+    }
+  ]
+}

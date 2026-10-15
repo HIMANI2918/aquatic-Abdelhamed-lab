@@ -1,0 +1,12 @@
+{
+  "_help": "Lab members. Each { ... } is one person. Put the photo in images/members/ and type its path in \"photo\". Leave \"photo\" as \"\" for a grey placeholder. To add a person, copy one { ... } block, add a comma after the block above it, and paste.",
+
+  "members": [
+    { "name": "Name", "role": "Role / Position", "photo": "images/members/member1.jpg" },
+    { "name": "Name", "role": "Role / Position", "photo": "images/members/member2.jpg" },
+    { "name": "Name", "role": "Role / Position", "photo": "images/members/member3.jpg" },
+    { "name": "Name", "role": "Role / Position", "photo": "images/members/member4.jpg" },
+    { "name": "Name", "role": "Role / Position", "photo": "images/members/member5.jpg" },
+    { "name": "Name", "role": "Role / Position", "photo": "images/members/member6.jpg" }
+  ]
+}
