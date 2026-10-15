@@ -1,34 +1,642 @@
 {
-  "_help": "Publications. Each { ... } is one paper. Years and order are sorted automatically (newest first). Put the paper link in \"link\" (leave \"\" for no link). Use *stars* around a word to make it italic, e.g. *Edwardsiella ictaluri*. To add a paper, copy one { ... } block, add a comma after the block above it, and paste.",
-
-  "profiles": [
-    { "label": "MSU Faculty Profile", "url": "https://www.vetmed.msstate.edu/directory/ha240#publications" },
-    { "label": "Google Scholar", "url": "" },
-    { "label": "ORCID", "url": "" },
-    { "label": "ResearchGate", "url": "" }
-  ],
+  "_help": "Publications. Each { ... } is one paper. Papers are grouped by year automatically (newest first); papers with no year are listed last. Within a year they keep the order written here. Leave \"year\" as \"\" if unknown. Use *stars* around a word to make it italic, e.g. *Edwardsiella ictaluri*. To add a paper, copy one { ... } block, add a comma after the block above it, and paste.",
 
   "publications": [
     {
-      "year": 2024,
-      "authors": "Abdelhamed H., et al.",
-      "title": "[Title of the *Plesiomonas shigelloides* plasmid paper]",
-      "journal": "[Journal, volume, pages]",
-      "link": ""
-    },
-    {
-      "year": 2023,
-      "authors": "Abdelhamed H., et al.",
-      "title": "[Title of the pEIMS-171561 plasmid paper, *Edwardsiella ictaluri*]",
-      "journal": "[Journal, volume, pages]",
-      "link": ""
+      "year": 2017,
+      "authors": "H Abdelhamed, I Ibrahim, W Baumgartner, ML Lawrence, A Karsi",
+      "title": "Characterization of Histopathological and Ultrastructural Changes in Channel Catfish Experimentally Infected with Virulent Aeromonas hydrophila",
+      "journal": "Frontiers in microbiology 8, 1519"
     },
     {
       "year": 2019,
-      "authors": "Abdelhamed H., et al.",
-      "title": "[Title of the pEPMS-18199 plasmid paper, *Edwardsiella piscicida*]",
-      "journal": "[Journal, volume, pages]",
-      "link": ""
+      "authors": "HC Tekedar, S Kumru, J Blom, AD Perkins, MJ Griffin, H Abdelhamed, ...",
+      "title": "Comparative genomics of Aeromonas veronii: Identification of a pathotype impacting aquaculture globally",
+      "journal": "PloS one 14 (8), e0221018"
+    },
+    {
+      "year": 2017,
+      "authors": "H Abdelhamed, I Ibrahim, SW Nho, MM Banes, RW Wills, A Karsi, ...",
+      "title": "Evaluation of three recombinant outer membrane proteins, OmpA1, Tdr, and TbpA, as potential vaccine antigens against virulent Aeromonas hydrophila infection in channel catfish …",
+      "journal": "Fish & Shellfish Immunology 66, 480-486"
+    },
+    {
+      "year": 2020,
+      "authors": "HC Tekedar, MA Arick, CY Hsu, A Thrash, J Blom, ML Lawrence, ...",
+      "title": "Identification of Antimicrobial Resistance Determinants in Aeromonas veronii Strain MS-17-88 Recovered From Channel Catfish (Ictalurus punctatus)",
+      "journal": "Frontiers in Cellular and Infection Microbiology 10, 348"
+    },
+    {
+      "year": 2015,
+      "authors": "H Abdelhamed, ML Lawrence, A Karsi",
+      "title": "A novel suicide plasmid for efficient gene mutation in Listeria monocytogenes",
+      "journal": "Plasmid 81, 1-8"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, R Ramachandran, O Ozdemir, G Waldbieser, ...",
+      "title": "Characterization of a Novel Conjugative Plasmid in Edwardsiella piscicida Strain MS-18-199",
+      "journal": "Frontiers in Cellular and Infection Microbiology 9, 404"
+    },
+    {
+      "year": 2020,
+      "authors": "H Abdelhamed, SW Nho, A Karsi, ML Lawrence",
+      "title": "The role of denitrification genes in anaerobic growth and virulence of Flavobacterium columnare",
+      "journal": "Journal of Applied Microbiology"
+    },
+    {
+      "year": 2018,
+      "authors": "H Abdelhamed, ML Lawrence, A Karsi",
+      "title": "Development and characterization of a novel live attenuated vaccine against enteric septicemia of catfish",
+      "journal": "Frontiers in Microbiology 9, 1819"
+    },
+    {
+      "year": 2013,
+      "authors": "H Abdelhamed, J Lu, A Shaheen, A Abbass, ML Lawrence, A Karsi",
+      "title": "Construction and evaluation of an Edwardsiella ictaluri fhuC mutant",
+      "journal": "Veterinary microbiology 162 (2-4), 858-865"
+    },
+    {
+      "year": 2016,
+      "authors": "H Abdelhamed, SW Nho, G Turaga, MM Banes, A Karsi, ML Lawrence",
+      "title": "Protective efficacy of four recombinant fimbrial proteins of virulent Aeromonas hydrophila strain ML09-119 in channel catfish",
+      "journal": "Veterinary microbiology 197, 8-14"
+    },
+    {
+      "year": 2015,
+      "authors": "SW Nho, H Abdelhamed, S Reddy, A Karsi, ML Lawrence",
+      "title": "Identification of high‐risk Listeria monocytogenes serotypes in lineage I (serotype 1/2a, 1/2c, 3a and 3c) using multiplex PCR",
+      "journal": "Journal of Applied Microbiology 119 (3), 845-852"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, M Banes, A Karsi, ML Lawrence",
+      "title": "Recombinant ATPase of Virulent Aeromonas hydrophila Protects Channel Catfish Against Motile Aeromonas Septicemia",
+      "journal": "Frontiers in Immunology 10, 1641"
+    },
+    {
+      "year": 2013,
+      "authors": "N Dahal, H Abdelhamed, J Lu, A Karsi, ML Lawrence",
+      "title": "Tricarboxylic acid cycle and one-carbon metabolism pathways are important in Edwardsiella ictaluri virulence",
+      "journal": "PloS one 8 (6), e65973"
+    },
+    {
+      "year": 2018,
+      "authors": "AO Kordon, H Abdelhamed, H Ahmed, JY Park, A Karsi, LM Pinchuk",
+      "title": "Phagocytic and Bactericidal Properties of Channel Catfish Peritoneal Macrophages Exposed to Edwardsiella ictaluri Live Attenuated Vaccine and Wild-Type Strains",
+      "journal": "Frontiers in Microbiology 8, 2638"
+    },
+    {
+      "year": 2019,
+      "authors": "HC Tekedar, H Abdelhamed, S Kumru, J Blom, A Karsi, ML Lawrence",
+      "title": "Comparative Genomics of Aeromonas hydrophila Secretion Systems and Mutational Analysis of hcp1 and vgrG1 Genes From T6SS",
+      "journal": "Frontiers in Microbiology 9, 3216"
+    },
+    {
+      "year": 2018,
+      "authors": "SW Nho, H Abdelhamed, D Paul, S Park, MJ Mauel, A Karsi, ...",
+      "title": "Taxonomic and functional metagenomic profile of sediment from a commercial catfish pond in Mississippi",
+      "journal": "Frontiers in Microbiology 9, 2855"
+    },
+    {
+      "year": 2019,
+      "authors": "AO Kordon, H Abdelhamed, H Ahmed, W Baumgartner, A Karsi, ...",
+      "title": "Assessment of the Live Attenuated and Wild-Type Edwardsiella ictaluri-Induced Immune Gene Expression and Langerhans-Like Cell Profiles in the Immune …",
+      "journal": "Frontiers in immunology 10, 392"
+    },
+    {
+      "year": 2020,
+      "authors": "H Abdelhamed, R Ramachandran, L Narayanan, O Ozdemir, A Cooper, ...",
+      "title": "Contributions of a LysR transcriptional regulator to Listeria monocytogenes virulence and identification of its regulons",
+      "journal": "Journal of Bacteriology 202 (10), 10.1128/jb. 00087-20"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, O Ozdemir, G Waldbieser, AD Perkins, ML Lawrence, ...",
+      "title": "Effects of florfenicol feeding on diversity and composition of the intestinal microbiota of channel catfish (Ictalurus punctatus)",
+      "journal": "Aquaculture Research, 1-10"
+    },
+    {
+      "year": 2017,
+      "authors": "SW Nho, H Abdelhamed, A Karsi, ML Lawrence",
+      "title": "Improving safety of a live attenuated Edwardsiella ictaluri vaccine against enteric septicemia of catfish and evaluation of efficacy",
+      "journal": "Veterinary Microbiology 210, 83-90"
+    },
+    {
+      "year": 2018,
+      "authors": "A Edrees, H Abdelhamed, SW Nho, SB Park, A Karsi, FW Austin, M Essa, ...",
+      "title": "Construction and evaluation of type III secretion system mutants of the catfish pathogen Edwardsiella piscicida",
+      "journal": "Journal of Fish Diseases 41 (5), 805-816"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, O Ozdemir, I Ibrahim, M Lawrence, A Karsi",
+      "title": "Antibacterial activities of trans-cinnamaldehyde, caprylic acid, and β-resorcylic acid against catfish pathogens",
+      "journal": "Aquaculture 504, 334-344"
+    },
+    {
+      "year": 2018,
+      "authors": "H Abdelhamed, HC Tekedar, O Ozdemir, CY Hsu, MA Arick, A Karsi, ...",
+      "title": "Complete genome sequence of multidrug-resistant Edwardsiella ictaluri strain MS-17-156",
+      "journal": "Genome announcements 6 (22), 10.1128/genomea. 00477-18"
+    },
+    {
+      "year": 2017,
+      "authors": "H Abdelhamed, ML Lawrence, A Karsi",
+      "title": "The Role of TonB Gene in Edwardsiella ictaluri Virulence",
+      "journal": "Frontiers in physiology 8, 1066"
+    },
+    {
+      "year": 2019,
+      "authors": "CD Castañeda, CD McDaniel, H Abdelhamed, A Karsi, AS Kiess",
+      "title": "Evaluating bacterial colonization of a developing broiler embryo after in ovo injection with a bioluminescent bacteria",
+      "journal": "Poultry science 98 (7), 2997-3006"
+    },
+    {
+      "year": 2020,
+      "authors": "S Kalindamar, AO Kordon, H Abdelhamed, W Tan, LM Pinchuk, A Karsi",
+      "title": "Edwardsiella ictaluri evpP is required for colonisation of channel catfish ovary cells and necrosis in anterior kidney macrophages",
+      "journal": "Cellular microbiology 22 (3), e13135"
+    },
+    {
+      "year": 2016,
+      "authors": "AO Kordon, MA Scott, I Ibrahim, H Abdelhamed, H Ahmed, ...",
+      "title": "Identification of Langerhans-like cells in the immunocompetent tissues of channel catfish, Ictalurus punctatus",
+      "journal": "Fish & Shellfish Immunology 58, 253-258"
+    },
+    {
+      "year": 2021,
+      "authors": "S Kalindamar, H Abdelhamed, AO Kordon, LM Pinchuk, A Karsi",
+      "title": "Hemolysin Co-regulated Family Proteins Hcp1 and Hcp2 Contribute to Edwardsiella ictaluri Pathogenesis",
+      "journal": "Frontiers in Veterinary Science 8, 681609"
+    },
+    {
+      "year": 2021,
+      "authors": "AA Mousa, R Ramachandran, O Ozdemir, A Karsi, H Abdelhamed",
+      "title": "Dietary trans-cinnamaldehyde improves oxidative stress response of channel catfish (Ictalurus punctatus) following Edwardsiella ictaluri infection",
+      "journal": "Aquaculture 532, 735985"
+    },
+    {
+      "year": 2016,
+      "authors": "S Reddy, A Akgul, A Karsi, H Abdelhamed, RW Wills, ML Lawrence",
+      "title": "The role of Listeria monocytogenes cell wall surface anchor protein LapB in virulence, adherence, and intracellular replication",
+      "journal": "Microbial pathogenesis 92, 19-25"
+    },
+    {
+      "year": 2018,
+      "authors": "H Abdelhamed, O Ozdemir, HC Tekedar, MA Arick, CY Hsu, A Karsi, ...",
+      "title": "Complete genome sequence of multidrug-resistant Plesiomonas shigelloides strain MS-17-188",
+      "journal": "Genome announcements 6 (18), 10.1128/genomea. 00387-18"
+    },
+    {
+      "year": 2024,
+      "authors": "HC Tekedar, F Patel, J Blom, MJ Griffin, GC Waldbieser, S Kumru, ...",
+      "title": "Tad pili contribute to the virulence and biofilm formation of virulent Aeromonas hydrophila",
+      "journal": "Frontiers in Cellular and Infection Microbiology 14, 1425624"
+    },
+    {
+      "year": 2021,
+      "authors": "M Sayed, O Ozdemir, M Essa, A Olivier, A Karsi, ML Lawrence, ...",
+      "title": "Virulence and live vaccine potential of Edwardsiella piscicida phoP and phoQ mutants in catfish against edwardsiellosis",
+      "journal": "Journal of fish diseases 44 (9), 1463-1474"
+    },
+    {
+      "year": 2021,
+      "authors": "AO Kordon, H Abdelhamed, A Karsi, LM Pinchuk",
+      "title": "Adaptive immune responses in channel catfish exposed to Edwardsiella ictaluri live attenuated vaccine and wild type strains through the specific gene expression profiles",
+      "journal": "Developmental & Comparative Immunology 116, 103950"
+    },
+    {
+      "year": 2014,
+      "authors": "N Dahal, H Abdelhamed, A Karsi, ML Lawrence",
+      "title": "Tissue persistence and vaccine efficacy of tricarboxylic acid cycle and one-carbon metabolism mutant strains of Edwardsiella ictaluri",
+      "journal": "Vaccine 32 (31), 3971-3976"
+    },
+    {
+      "year": 2018,
+      "authors": "H Abdelhamed, I Ibrahim, W Baumgartner, ML Lawrence, A Karsi",
+      "title": "The virulence and immune protection of Edwardsiella ictaluri HemR mutants in catfish",
+      "journal": "Fish & Shellfish Immunology 72, 153-160"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, ML Lawrence, G Waldbieser",
+      "title": "Complete genome sequence data of multidrug-resistant Aeromonas veronii strain MS-18-37",
+      "journal": "Data in Brief 23, 103689"
+    },
+    {
+      "year": 2016,
+      "authors": "H Abdelhamed, J Lu, ML Lawrence, A Karsi",
+      "title": "Ferric hydroxamate uptake system contributes to Edwardsiella ictaluri virulence",
+      "journal": "Microbial pathogenesis 100, 195-200"
+    },
+    {
+      "year": 2016,
+      "authors": "H Abdelhamed, J Lu, ML Lawrence, A Karsi",
+      "title": "Involvement of tolQ and tolR genes in Edwardsiella ictaluri virulence",
+      "journal": "Microbial pathogenesis 100, 90-94"
+    },
+    {
+      "year": 2014,
+      "authors": "N Dahal, H Abdelhamed, J Lu, A Karsi, ML Lawrence",
+      "title": "Effect of multiple mutations in tricarboxylic acid cycle and one-carbon metabolism pathways on Edwardsiella ictaluri pathogenesis",
+      "journal": "Veterinary microbiology 169 (1-2), 107-112"
+    },
+    {
+      "year": 2022,
+      "authors": "H Abdelhamed, R Ramachandran, L Narayanan, S Islam, O Ozan, ...",
+      "title": "Role of FruR transcriptional regulator in virulence of Listeria monocytogenes and identification of its regulon",
+      "journal": "PLoS One 17 (9), e0274005"
+    },
+    {
+      "year": 2023,
+      "authors": "S Islam, MM Riman, S Mannan, ML Lawrence, H Abdelhamed",
+      "title": "Characterisation and mobilisation of IncA/C plasmid-mediated antibiotic resistance in Edwardsiella ictaluri",
+      "journal": "Journal of Global Antimicrobial Resistance 33, 177-185"
+    },
+    {
+      "year": 2019,
+      "authors": "AO Kordon, S Kalindamar, K Majors, H Abdelhamed, W Tan, A Karsi, ...",
+      "title": "Effects of Live Attenuated Vaccine and Wild Type Strains of Edwardsiella ictaluri on Phagocytosis, Bacterial Killing, and Survival of Catfish B Cells",
+      "journal": "Frontiers in immunology 10, 2383"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, ML Lawrence, R Ramachandran, A Karsi",
+      "title": "Validation of Predicted Virulence Factors in Listeria monocytogenes Identified Using Comparative Genomics",
+      "journal": "Toxins 11 (9), 508"
+    },
+    {
+      "year": "",
+      "authors": "L Narayanan, O Ozdemir, N Alugubelly, R Ramachandran, MM Banes, ...",
+      "title": "Identification of genetic elements required for Listeria monocytogenes growth under limited nutrient conditions and virulence by a screening of a transposon insertion library",
+      "journal": "Frontiers in Microbiology, 4030"
+    },
+    {
+      "year": 2025,
+      "authors": "B Gomaa, H Abdelhamed, M Banes, S Zinnurine, L Pinchuk, ...",
+      "title": "Innate and adaptive immunity gene expression profiles induced by virulent Aeromonas hydrophila infection in the immune-related organs of channel catfish",
+      "journal": "Developmental & Comparative Immunology 162, 105276"
+    },
+    {
+      "year": 2019,
+      "authors": "HR Khalil, AM Diab, H Abdelhamed, MS Shakweer, MS El Gohary, ...",
+      "title": "Molecular characterization of Vibrio harveyi and Vibrio alginolyticus with the impact of stressful environment on some naturally infected marine fish.",
+      "journal": "Alexandria Journal of Veterinary Sciences 60 (2), 71"
+    },
+    {
+      "year": 2020,
+      "authors": "AO Kordon, S Kalindamar, K Majors, H Abdelhamed, W Tan, A Karsi, ...",
+      "title": "Live attenuated Edwardsiella ictaluri vaccines enhance the protective innate immune responses of channel catfish B cells",
+      "journal": "Developmental & Comparative Immunology 109, 103711"
+    },
+    {
+      "year": 2017,
+      "authors": "A Karsi, ML Lawrence, H Abdelhamed",
+      "title": "Live attenuated Edwardsiella ictaluri vaccine and method of using the same",
+      "journal": "US Patent App. 15/257,607"
+    },
+    {
+      "year": 2024,
+      "authors": "QMM Kader Chowdhury, S Islam, L Narayanan, SC Ogunleye, S Wang, ...",
+      "title": "An insight into the role of branched-chain α-keto acid dehydrogenase (BKD) complex in branched-chain fatty acid biosynthesis and virulence of Listeria monocytogenes",
+      "journal": "Journal of Bacteriology 206 (7), e00033-24"
+    },
+    {
+      "year": 2022,
+      "authors": "H Abdelhamed, SW Nho, SW Kim, JS Reddy, SB Park, TS Jung, ...",
+      "title": "Serotype-identifying ions in Listeria monocytogenes using matrix-associated laser desorption ionization-time of flight mass spectrometry",
+      "journal": "Heliyon 8 (12)"
+    },
+    {
+      "year": 2023,
+      "authors": "M Sayed, L Narayanan, M Essa, M Lawrence, A Karsi, H Abdelhamed",
+      "title": "Secreted extracellular products of Flavobacterium covae as potential immunogenic factors for protection against columnaris disease in channel catfish (Ictalurus punctatus)",
+      "journal": "Pathogens 12 (6), 808"
+    },
+    {
+      "year": 2019,
+      "authors": "S Kalindamar, J Lu, H Abdelhamed, HC Tekedar, ML Lawrence, A Karsi",
+      "title": "Transposon mutagenesis and identification of mutated genes in growth-delayed Edwardsiella ictaluri",
+      "journal": "BMC microbiology 19 (1), 55"
+    },
+    {
+      "year": 2023,
+      "authors": "S Kalindamar, H Abdelhamed, AO Kordon, HC Tekedar, L Pinchuk, ...",
+      "title": "Characterization of Type VI secretion system in Edwardsiella ictaluri",
+      "journal": "Plos one 18 (12), e0296132"
+    },
+    {
+      "year": 2024,
+      "authors": "AS Isah, R Ramachandran, AT Sukumaran, AS Kiess, CD Castañeda, ...",
+      "title": "Research Note: Evaluating the vertical transmission potential of Salmonella Reading in broiler breeders",
+      "journal": "Poultry Science 103 (12), 104351"
+    },
+    {
+      "year": 2023,
+      "authors": "E Ozdemir, H Abdelhamed, O Ozdemir, M Lawrence, A Karsi",
+      "title": "Development of Bioluminescent Virulent Aeromonas hydrophila for Understanding Pathogenicity",
+      "journal": "Pathogens 12 (5), 670"
+    },
+    {
+      "year": 2022,
+      "authors": "M Sayed, M Griffin, C Ware, O Ozdemir, HC Tekedar, M Essa, A Karsi, ...",
+      "title": "Evaluation of Edwardsiella piscicida basS and basR mutants as vaccine candidates in catfish against edwardsiellosis",
+      "journal": "Journal of Fish Diseases"
+    },
+    {
+      "year": 2018,
+      "authors": "A Akgul, SW Nho, S Kalindamar, HC Tekedar, H Abdalhamed, ...",
+      "title": "Universal Stress Proteins Contribute Edwardsiella ictaluri Virulence in Catfish",
+      "journal": "Frontiers in Microbiology 9, 2931"
+    },
+    {
+      "year": 2024,
+      "authors": "H Abdelhamed, SB Mannan, MM Riman, HC Tekedar, ML Lawrence",
+      "title": "Comparative analysis of three plasmids from Plesiomonas shigelloides strain MS-17-188 and their role in antimicrobial resistance",
+      "journal": "JAC-Antimicrobial Resistance 6 (4), dlae109"
+    },
+    {
+      "year": 2024,
+      "authors": "SC Ogunleye, S Islam, M Monzur, O Ozdemir, ML Lawrence, ...",
+      "title": "Catabolite control protein C (CcpC) contributes to virulence and hydrogen peroxideinduced oxidative stress responses in Listeria monocytogenes",
+      "journal": "Frontiers in Microbiology 15, 1403694"
+    },
+    {
+      "year": 2020,
+      "authors": "A Edrees, H Abdelhamed, SW Nho, O Ozdemir, A Karsi, M Essa, ...",
+      "title": "An Edwardsiella piscicida esaS mutant reveals contribution to virulence and vaccine potential",
+      "journal": "Microbial Pathogenesis 143, 104108"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, A Karsi, ML Lawrence",
+      "title": "Efficient Gene Deletion Method for Listeria monocytogenes",
+      "journal": "Microbial Transposon Mutagenesis: Protocols and Applications, 159-170"
+    },
+    {
+      "year": 2024,
+      "authors": "R Ramachandran, E Ford, B Gomaa, H Abdelhamed",
+      "title": "Trans-Cinnamaldehyde Primes More Robust Channel Catfish Immune Responses to Edwardsiella ictaluri Infection",
+      "journal": "Pathogens 13 (4), 310"
+    },
+    {
+      "year": 2017,
+      "authors": "S Reddy, G Turaga, H Abdelhamed, MM Banes, RW Wills, ML Lawrence",
+      "title": "Listeria monocytogenes PdeE, a phosphodiesterase that contributes to virulence and has hydrolytic activity against cyclic mononucleotides and cyclic dinucleotides",
+      "journal": "Microbial pathogenesis 110, 399-408"
+    },
+    {
+      "year": 2016,
+      "authors": "A Kordon",
+      "title": "Innate and adaptive immune responses of catfish antigen-presenting cells to live attenuated Edwardsiella ictaluri vaccines",
+      "journal": ""
+    },
+    {
+      "year": 2026,
+      "authors": "HH Mohammed, NI ElBanna, O Erdogan, S Aarattuthodi, HC Tekedar, ...",
+      "title": "Plesiomonas shigelloides as an Emerging Pathogen in Catfish Aquaculture: A Case from a South Texas Commercial Farm",
+      "journal": "Microorganisms 14 (1), 144"
+    },
+    {
+      "year": 2024,
+      "authors": "A Akgul, S Kalindamar, AO Kordon, H Abdelhamed, I Ibrahim, ...",
+      "title": "The RNA chaperone Hfq has a multifaceted role in Edwardsiella ictaluri",
+      "journal": "Frontiers in Cellular and Infection Microbiology 14, 1394008"
+    },
+    {
+      "year": 2022,
+      "authors": "M Sayed, H Abdelhamed",
+      "title": "Persistence and immunogenicity of Edwardsiella piscicida phoP/Q mutants in channel catfish (Ictalurus punctatus)",
+      "journal": "Journal of Veterinary Medical Research 29 (2), 43-51"
+    },
+    {
+      "year": 2026,
+      "authors": "YK Park, F Patel, H Abdelhamed, LA Hanson, ML Lawrence, HC Tekedar",
+      "title": "Recombinant TadZ from the type IVc pilus system induces protective immunity against virulent Aeromonas hydrophila in channel catfish (Ictalurus punctatus)",
+      "journal": "Frontiers in Immunology 17, 1763508"
+    },
+    {
+      "year": 2025,
+      "authors": "M Chowdhury, S Ogunleye, MM Riman, MW Frank, H Abdelhamed",
+      "title": "Transcriptional responses of Listeria monocytogenes to low temperatures stress reveal distinct adaptive mechanisms in the absence of BKD and PrfA activation",
+      "journal": "Microbial pathogenesis, 108001"
+    },
+    {
+      "year": 2025,
+      "authors": "SC Ogunleye, M Hassan, ML Lawrence, H Abdelhamed",
+      "title": "The impact of DeoRF on Listeria monocytogenes stress tolerance and survival",
+      "journal": "Microbes and infection, 105549"
+    },
+    {
+      "year": 2025,
+      "authors": "J Lu, H Abdelhamed, N Al-Janabi, N Eissa, M Lawrence, A Karsi",
+      "title": "Identification of stable reference genes in Edwardsiella ictaluri for accurate gene expression analysis",
+      "journal": "Plos one 20 (5), e0309585"
+    },
+    {
+      "year": 2023,
+      "authors": "OA Kordon, H Abdelhamed, A Karsi, LM Pinchuk",
+      "title": "Edwardsiella ictaluri Live Attenuated Vaccines Induce IgM Responses in Channel Catfish (Ictalurus punctatus)",
+      "journal": "J Aquac Fisheries 7 (60), 2"
+    },
+    {
+      "year": 2022,
+      "authors": "I Ibrahim, H Abdelhamed, W Baumgartner, RW Wills, W Awadin, ...",
+      "title": "Pathological and Ultrastructural Characterization of an Edwardsiella ictaluri Triple hemR Mutant",
+      "journal": "Journal of aquatic animal health 34 (3), 116-133"
+    },
+    {
+      "year": 2012,
+      "authors": "H Abdelhamed, JJ Liu, N Dahali, AA Shaheen, AA Amany, ML Lawrence, ...",
+      "title": "Assessment of the virulence and immunogenicity of Edwardsiella ictaluri fhuCD mutant.",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "H Abdelhamed, J Liu, N Dahali, AA Shaheen, A Abbass",
+      "title": "CONSTRUCTION OF EDWARDSIELLA ICTALURI FHUCD IN-FRAME DELETION MUTANT",
+      "journal": ""
+    },
+    {
+      "year": 2026,
+      "authors": "M Mellace, M Samir, H Abdelhamed",
+      "title": "Bridging the implementation gap in One Health diagnostics: from point-of-care technologies to integrated diagnostic ecosystems",
+      "journal": "One Health Microbiology & Infection 2 (1), 195-210"
+    },
+    {
+      "year": 2026,
+      "authors": "SC Ogunleye, M Chowdhury, H Abdelhamed",
+      "title": "Regulatory roles of the LysR-type transcriptional regulator GltC in metabolism, stress tolerance, and virulence of Listeria monocytogenes",
+      "journal": "Microbiology Spectrum, e00391-26"
+    },
+    {
+      "year": 2026,
+      "authors": "B Gomaa, HC Tekedar, H Abdelhamed, A Karsi, ML Lawrence",
+      "title": "Development of a recombinant live attenuated vaccine to protect channel catfish against motile Aeromonas septicemia",
+      "journal": "Frontiers in Bacteriology 5, 1720345"
+    },
+    {
+      "year": 2026,
+      "authors": "H Abdelhamed, MM Riman, MA Arick, AS Dawood, B Gomaa, ...",
+      "title": "Investigation mechanisms of action and resistance of Edwardsiella ictaluri to trans-cinnamaldehyde",
+      "journal": "Plos one 21 (1), e0340053"
+    },
+    {
+      "year": 2026,
+      "authors": "M Mellace, M Samir, H Abdelhamed",
+      "title": "One Health Microbiology & Infection",
+      "journal": ""
+    },
+    {
+      "year": 2025,
+      "authors": "AS Isah, R Ramachandran, AT Sukumaran, AS Kiess, CD Castañeda, ...",
+      "title": "Construction and characterization of bioluminescent Salmonella Reading outbreak and non-outbreak strains",
+      "journal": "Microbiology Spectrum 13 (2), e01263-24"
+    },
+    {
+      "year": 2025,
+      "authors": "M Dehghan-Bonari, G Kumar, H Abdelhamed, M Marufuzzaman",
+      "title": "Optimizing Production Strategies in Catfish Farming: A Decision Support System Using Mathematical Modeling",
+      "journal": "IISE Annual Conference. Proceedings, 1-6"
+    },
+    {
+      "year": 2024,
+      "authors": "J Lu, H Abdelhamed, N Al-Janabi, N Eissa, M Lawrence, A Karsi",
+      "title": "Identification of stable reference genes inEdwardsiella ictalurifor accurate gene expression analysis",
+      "journal": ""
+    },
+    {
+      "year": 2024,
+      "authors": "B Gomaa, J Lu, H Abdelhamed, M Banes, O Pechanova, T Pechan, ...",
+      "title": "Identification of Protein Biomarkers for Differentiating Listeria monocytogenes Genetic Lineage III",
+      "journal": "Foods 13 (9), 1302"
+    },
+    {
+      "year": 2024,
+      "authors": "AS Isah",
+      "title": "Evaluating the vertical transmission potential of Salmonella Reading in broiler breeders",
+      "journal": "Mississippi State University"
+    },
+    {
+      "year": 2023,
+      "authors": "ML Lawrence, A Karsi, H Abdelhamed",
+      "title": "Virulent aeromonas vaccines and methods",
+      "journal": "US Patent App. 17/829,033"
+    },
+    {
+      "year": 2022,
+      "authors": "Q Chowdhury, R Ramachandran, O Ozdemir, ML Lawrence, ...",
+      "title": "Characterization of the Role of FruR in Listeria monocytogenes Virulence and Identification of Its Regulons",
+      "journal": "International Journal of Infectious Diseases 116, S78"
+    },
+    {
+      "year": 2020,
+      "authors": "ML Lawrence, A Karsi, H Abdelhamed",
+      "title": "Virulent aeromonas vaccines and methods",
+      "journal": "US Patent App. 16/467,166"
+    },
+    {
+      "year": 2020,
+      "authors": "H Abdelhamed, S Kalindamar, A Karsi, AO Kordon, K Majors, LM Pinchuk, ...",
+      "title": "Live attenuated Edwardsiella ictaluri vaccines enhance the protective innate immune responses of channel catfish B cells",
+      "journal": "ELSEVIER SCI LTD, THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB …"
+    },
+    {
+      "year": 2019,
+      "authors": "A Karsi, M Lawrence, H Abdelhamed",
+      "title": "Live attenuated edwardsiella ictaluri vaccine and method of using the same",
+      "journal": "US Patent App. 16/262,582"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, S Kalindamar, A Karsi, AO Kordon, LM Pinchuk, W Tan",
+      "title": "Edwardsiella ictaluri evpP is required for colonisation of channel catfish ovary cells and necrosis in anterior kidney macrophages",
+      "journal": "WILEY, 111 RIVER ST, HOBOKEN 07030-5774, NJ USA"
+    },
+    {
+      "year": 2019,
+      "authors": "H Abdelhamed, S Kalindamar, A Karsi, AO Kordon, K Majors, LM Pinchuk, ...",
+      "title": "Effects of Live Attenuated Vaccine and Wild Type Strains of Edwardsiella ictaluri on Phagocytosis, Bacterial Killing, and Survival of Catfish B Cells",
+      "journal": "FRONTIERS MEDIA SA, AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015 …"
+    },
+    {
+      "year": 2018,
+      "authors": "L Hu",
+      "title": "Listeria monocytogenes as Foodborne Pathogen: Genetic Approaches, Identification, and Detection Methods",
+      "journal": "Food Safety, 169-196"
+    },
+    {
+      "year": 2018,
+      "authors": "H Abdelhamed, O Ozdemir, HC Tekedar, MA Arick, HCY II, A Karsi, ...",
+      "title": "Complete genome sequence of multidrug-resistant Plesiomonas shigelloides strain MS-17-188. Genome Announc 6: e00387-18",
+      "journal": ""
+    },
+    {
+      "year": 2017,
+      "authors": "NSW Nho SeongWon, H Abdelhamed, A Karsi, ML Lawrence",
+      "title": "Improving safety of a live attenuated Edwardsiella ictaluri vaccine against enteric septicemia of catfish and evaluation of efficacy.",
+      "journal": ""
+    },
+    {
+      "year": 2016,
+      "authors": "S Kalindamar, H Abdelhamed, HC Tekedar, A Karsi",
+      "title": "Construction and evaluation of an Edwardsiella ictaluri virulence protein F mutant",
+      "journal": ""
+    },
+    {
+      "year": 2015,
+      "authors": "H Abdelhamed",
+      "title": "The role of Listeria monocytogenes cell wall surface anchor protein LapB in virulence, adheresnce, and intracellular replication",
+      "journal": "Microbial pathogenesis"
+    },
+    {
+      "year": "",
+      "authors": "S KUMRU, H Tekedar, H Abdelhamed, M Lawrence, A Karsi",
+      "title": "Comparative genome analysis of Aeromonas veronii",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "S KUMRU, H Tekedar, H Abdelhamed, M Lawrence, A Karsi",
+      "title": "Genome Sequence and Comparative Genomics of Fish Pathogen Aeromonas bestiarum GA97-22",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "H Tekedar, L Hanson, M Griffin, G Waldbieser, S KUMRU, J Blom, ...",
+      "title": "Tad operon contributes to virulence of epidemic isolate Aeromonas hydrophila ML09-119",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "V Dharan, F Patel, M Pipkin, A Baquerizo, S KUMRU, L Hanson, ...",
+      "title": "Mutation of TAD operon genes in virulent Aeromonas hydrophila ML09-119 for determining their role in bacterial virulence",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "H Tekedar, S KUMRU, J Blom, H Abdelhamed, A Karsi, M Lawrence",
+      "title": "Comparative Genome Analysis of the Aeromonas veronii strain ML09-123",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "H Tekedar, S KUMRU, H EKİZ, M Griffin, G Waldbieser, J Blom, L Ford, ...",
+      "title": "A stealth adhesion factor contributes to epidemic isolate Aeromonas hydrophila pathogenicity",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "H Tekedar, S Kalindamar, A Karsi, H Abdelhamed, S KUMRU, ...",
+      "title": "The Role of Selected Secreted Proteins and Regulatory Hfq Proteins in Pathogenesis of Virulent Aeromonas hydrophila",
+      "journal": ""
+    },
+    {
+      "year": "",
+      "authors": "S Tasumi, LM Pinchuk, AO Kordon, H Abdelhamed, H Ahmed, ...",
+      "title": "Edwardsiella ictaluri Live Attenuated Vaccines Induce IgM Responses in Channel Catfish (Ictalurus punctatus)",
+      "journal": ""
     }
   ]
 }
