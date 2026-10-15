@@ -181,10 +181,35 @@ function renderPublications(data) {
   }).join("");
 }
 
+/* Apply the names/titles from content/lab.json to every page */
+function applyLab(lab) {
+  var brand = document.querySelector(".brand");
+  if (brand && lab.brand) brand.textContent = lab.brand;
+
+  var h1 = document.querySelector(".hero h1");
+  if (h1 && lab.hero_title) h1.textContent = lab.hero_title;
+
+  var lead = document.querySelector(".hero .lead");
+  if (lead && lab.hero_lead) lead.textContent = lab.hero_lead;
+
+  var foot = document.querySelector(".site-footer p");
+  if (foot && lab.footer_name) {
+    foot.innerHTML = "&copy; " + new Date().getFullYear() + " " + esc(lab.footer_name) + ". All rights reserved.";
+  }
+
+  if (lab.site_title) {
+    var t = document.title;
+    var i = t.indexOf(" | ");
+    document.title = i > -1 ? t.slice(0, i) + " | " + lab.site_title : lab.site_title;
+  }
+}
+
 /* ---------- start ---------- */
 document.addEventListener("DOMContentLoaded", function () {
   var yr = el("year");
   if (yr) yr.textContent = new Date().getFullYear();
+
+  load("content/lab.json").then(applyLab).catch(function () { /* keep the built-in text */ });
 
   if (el("pi-card") || el("contact-intro")) {
     Promise.all([load("content/pi.json"), load("content/lab.json")]).then(function (r) {

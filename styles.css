@@ -496,3 +496,6 @@ section[id] { scroll-margin-top: 4.5rem; }
 .members-grid .member { flex: 0 1 195px; }
 .member .photo img { object-position: center top; }
 .member-role { font-size: .88rem; }
+
+/* Longer lab name in the Home heading */
+.hero h1 { max-width: 24ch; }
