@@ -39,63 +39,10 @@
   <main>
     <section class="section">
       <div class="container">
-        <!--
-          HOW TO ADD PHOTOS
-          Save each picture in the images/gallery/ folder as photo1.jpg, photo2.jpg ... photo12.jpg.
-          Then change the "Photo caption" text under it. Copy a whole <figure> block to add more.
-          Click a photo on the page to enlarge it.
-        -->
-        <p class="section-sub">Photos are left blank so you can upload your own. Click a photo to enlarge it.</p>
-        <div class="gallery">
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo1.jpg" alt="Gallery photo 1" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 1</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo2.jpg" alt="Gallery photo 2" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 2</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo3.jpg" alt="Gallery photo 3" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 3</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo4.jpg" alt="Gallery photo 4" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 4</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo5.jpg" alt="Gallery photo 5" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 5</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo6.jpg" alt="Gallery photo 6" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 6</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo7.jpg" alt="Gallery photo 7" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 7</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo8.jpg" alt="Gallery photo 8" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 8</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo9.jpg" alt="Gallery photo 9" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 9</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo10.jpg" alt="Gallery photo 10" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 10</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo11.jpg" alt="Gallery photo 11" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 11</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="ph"><img src="images/gallery/photo12.jpg" alt="Gallery photo 12" loading="lazy" onerror="this.remove()" /></div>
-          <figcaption>Photo caption 12</figcaption>
-        </figure>
-        </div>
+        <!-- Photos are listed in content/gallery.json - edit that file, not this page. -->
+        <p class="section-sub">Click a photo to enlarge it.</p>
+        <div id="gallery" class="gallery"></div>
+        <noscript><p class="load-error">This page needs JavaScript enabled to show its content.</p></noscript>
       </div>
     </section>
   </main>

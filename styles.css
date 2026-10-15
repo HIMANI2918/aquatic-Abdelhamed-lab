@@ -454,3 +454,36 @@ section[id] { scroll-margin-top: 4.5rem; }
   .page-hero { padding: 2.5rem 0 2.75rem; }
   .nav nav { gap: .15rem .9rem; }
 }
+
+/* ---------- PI profile details ---------- */
+.dept { margin: -.6rem 0 .75rem; color: var(--muted); font-size: .95rem; }
+.chips { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1rem; }
+.chip {
+  padding: .2rem .75rem;
+  border-radius: 999px;
+  background: var(--alt);
+  color: var(--deep);
+  font-size: .8rem;
+  font-weight: 600;
+}
+.pi-info h4 {
+  margin: 1.1rem 0 .3rem;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: .8rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.pi-info .bio { margin: 0; }
+.edu { margin: 0; padding-left: 1.1rem; color: var(--muted); }
+.pi-card .photo-lg { align-self: start; }
+.pi-card { align-items: start; }
+
+.load-error {
+  margin: 1rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #c0392b;
+  background: #fdf0ee;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+#groups:empty { min-height: 40vh; }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Aquatic Animal Health Management- Hossam Lab</title>
+  <title>Aquatic Animal Health Management Lab</title>
   <meta name="description" content="Aquatic Animal Health Management Lab: principal investigator and lab members." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,7 +35,7 @@
       <p class="eyebrow">Research Laboratory</p>
       <h1>Aquatic Animal Health Management</h1>
       <p class="lead">
-        Advancing the health, welfare and sustainable production of aquatic animals.
+        Advancing the health, welfare and sustainable production of fish, shrimp and other aquatic animals.
       </p>
       <p class="hero-cta">
         <a class="btn" href="#research">Explore our research</a>
@@ -172,29 +172,8 @@
       <div class="container">
         <h2>Principal Investigator</h2>
 
-        <article class="pi-card">
-          <!--
-            PHOTO: save the PI's picture as  images/pi.jpg  (square or portrait works best).
-            Until that file exists, the grey placeholder is shown.
-          -->
-          <div class="photo photo-lg">
-            <img src="images/pi.jpg" alt="Photo of the Principal Investigator" onerror="this.remove()" />
-          </div>
-
-          <div class="pi-info">
-            <h3>Dr. [PI Name]</h3>
-            <p class="role">Principal Investigator</p>
-            <p class="bio">
-              Add a short biography here: research interests, position, department and
-              institution.
-            </p>
-            <ul class="contact-list">
-              <li><span>Email</span> <a href="mailto:pi.email@university.edu">pi.email@university.edu</a></li>
-              <li><span>Phone</span> <a href="tel:+000000000000">+00 000 000 0000</a></li>
-              <li><span>Office</span> Department / Building / Room</li>
-            </ul>
-          </div>
-        </article>
+        <!-- Filled in from content/pi.json -->
+        <article class="pi-card" id="pi-card"></article>
       </div>
     </section>
 
@@ -202,68 +181,8 @@
     <section id="members" class="section alt">
       <div class="container">
         <h2>Lab Members</h2>
-        <p class="section-sub">
-          Photos and names are left blank so you can fill them in.
-        </p>
-
-        <div class="members-grid">
-
-          <!--
-            HOW TO EDIT A MEMBER
-            1. Put the photo in the images/ folder (e.g. images/member1.jpg).
-            2. Type the name and role below.
-            To add another member, copy a whole <article class="member"> ... </article> block.
-          -->
-
-          <article class="member">
-            <div class="photo">
-              <img src="images/member1.jpg" alt="" onerror="this.remove()" />
-            </div>
-            <h3 class="name">Name</h3>
-            <p class="member-role">Role / Position</p>
-          </article>
-
-          <article class="member">
-            <div class="photo">
-              <img src="images/member2.jpg" alt="" onerror="this.remove()" />
-            </div>
-            <h3 class="name">Name</h3>
-            <p class="member-role">Role / Position</p>
-          </article>
-
-          <article class="member">
-            <div class="photo">
-              <img src="images/member3.jpg" alt="" onerror="this.remove()" />
-            </div>
-            <h3 class="name">Name</h3>
-            <p class="member-role">Role / Position</p>
-          </article>
-
-          <article class="member">
-            <div class="photo">
-              <img src="images/member4.jpg" alt="" onerror="this.remove()" />
-            </div>
-            <h3 class="name">Name</h3>
-            <p class="member-role">Role / Position</p>
-          </article>
-
-          <article class="member">
-            <div class="photo">
-              <img src="images/member5.jpg" alt="" onerror="this.remove()" />
-            </div>
-            <h3 class="name">Name</h3>
-            <p class="member-role">Role / Position</p>
-          </article>
-
-          <article class="member">
-            <div class="photo">
-              <img src="images/member6.jpg" alt="" onerror="this.remove()" />
-            </div>
-            <h3 class="name">Name</h3>
-            <p class="member-role">Role / Position</p>
-          </article>
-
-        </div>
+        <!-- Filled in from content/members.json -->
+        <div class="members-grid" id="members-grid"></div>
       </div>
     </section>
 
@@ -271,15 +190,9 @@
     <section id="contact" class="section">
       <div class="container contact-box">
         <h2>Contact</h2>
-        <p>
-          For enquiries about research, collaboration or joining the lab, please email
-          <a href="mailto:pi.email@university.edu">pi.email@university.edu</a>.
-        </p>
-        <p class="address">
-          Aquatic Animal Health Management Lab<br />
-          Department / Faculty<br />
-          University, City, Country
-        </p>
+        <!-- Filled in from content/lab.json and content/pi.json -->
+        <p id="contact-intro"></p>
+        <p class="address" id="contact-address"></p>
       </div>
     </section>
 
