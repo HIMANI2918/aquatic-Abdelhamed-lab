@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery | Aquatic Animal Health Management Lab</title>
+  <meta name="description" content="Moments from the lab, the field, conferences and events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Aquatic Animal Health Management</a>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#members">People</a>
+        <a href="activities.html">Lab Activities</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
+        <a href="publications.html">Publications</a>
+        <a href="awards.html">Awards &amp; Honors</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Photos</p>
+      <h1>Gallery</h1>
+      <p class="lead">Moments from the lab, the field, conferences and events.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <!--
+          HOW TO ADD PHOTOS
+          Save each picture in the images/gallery/ folder as photo1.jpg, photo2.jpg ... photo12.jpg.
+          Then change the "Photo caption" text under it. Copy a whole <figure> block to add more.
+          Click a photo on the page to enlarge it.
+        -->
+        <p class="section-sub">Photos are left blank so you can upload your own. Click a photo to enlarge it.</p>
+        <div class="gallery">
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo1.jpg" alt="Gallery photo 1" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 1</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo2.jpg" alt="Gallery photo 2" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 2</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo3.jpg" alt="Gallery photo 3" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 3</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo4.jpg" alt="Gallery photo 4" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 4</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo5.jpg" alt="Gallery photo 5" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 5</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo6.jpg" alt="Gallery photo 6" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 6</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo7.jpg" alt="Gallery photo 7" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 7</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo8.jpg" alt="Gallery photo 8" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 8</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo9.jpg" alt="Gallery photo 9" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 9</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo10.jpg" alt="Gallery photo 10" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 10</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo11.jpg" alt="Gallery photo 11" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 11</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="ph"><img src="images/gallery/photo12.jpg" alt="Gallery photo 12" loading="lazy" onerror="this.remove()" /></div>
+          <figcaption>Photo caption 12</figcaption>
+        </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Aquatic Animal Health Management Lab. All rights reserved.</p>
+    </div>
+  </footer>
+  <dialog id="lightbox" aria-label="Enlarged image">
+    <button type="button" class="lb-close" aria-label="Close">&times;</button>
+    <img id="lb-img" alt="" />
+    <p id="lb-cap"></p>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>

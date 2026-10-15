@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aquatic Animal Health Management Lab</title>
+  <meta name="description" content="Aquatic Animal Health Management Lab: principal investigator and lab members." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Aquatic Animal Health Management</a>
+      <nav aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#members">People</a>
+        <a href="activities.html">Lab Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="publications.html">Publications</a>
+        <a href="awards.html">Awards &amp; Honors</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="container">
+      <p class="eyebrow">Research Laboratory</p>
+      <h1>Aquatic Animal Health Management</h1>
+      <p class="lead">
+        Advancing the health, welfare and sustainable production of fish, shrimp and other aquatic animals.
+      </p>
+      <p class="hero-cta">
+        <a class="btn" href="#research">Explore our research</a>
+        <a class="btn btn-ghost" href="#members">Meet the team</a>
+      </p>
+    </div>
+    <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,40 C240,80 480,0 720,30 C960,60 1200,70 1440,30 L1440,80 L0,80 Z"></path>
+    </svg>
+  </section>
+
+  <main>
+
+    <!-- ============ RESEARCH PROGRAM (front page) ============ -->
+    <section id="research" class="section">
+      <div class="container">
+        <p class="eyebrow dark">Research program</p>
+        <h2>A One Health Program to Combat Antimicrobial Resistance</h2>
+        <p class="section-sub">
+          From AMR emergence and transmission to intervention, stewardship, and AI-enabled prevention.
+        </p>
+
+        <div class="aims">
+          <article class="aim aim-1">
+            <span class="aim-num">1</span>
+            <h3>Define the Drivers of AMR Emergence &amp; Transmission</h3>
+            <p>Determine how coinfection, antimicrobial exposure, and environmental pressures promote AMR emergence, persistence, and horizontal gene transfer.</p>
+          </article>
+          <article class="aim aim-2">
+            <span class="aim-num">2</span>
+            <h3>Identify Environmental Reservoirs &amp; Risk Factors</h3>
+            <p>Define how host, microbial, and environmental factors contribute to the dissemination of AMR.</p>
+            <p class="aim-tags">Host &bull; Microbe &bull; Environment</p>
+          </article>
+          <article class="aim aim-3">
+            <span class="aim-num">3</span>
+            <h3>AI-Enabled Early Disease Detection &amp; AMR Prevention</h3>
+            <p>Use deep-learning behavioral monitoring to detect disease earlier, enable timely intervention, and potentially reduce unnecessary antimicrobial use.</p>
+            <p class="aim-tags">Early detection &bull; Timely intervention &bull; Prevention</p>
+          </article>
+          <article class="aim aim-4">
+            <span class="aim-num">4</span>
+            <h3>Develop Strategies to Reduce Antimicrobial Use &amp; AMR Spread</h3>
+            <p>Translate research findings into evidence-based interventions, education, and stewardship that reduce AMR.</p>
+            <p class="aim-tags">Intervention &bull; Education &bull; Stewardship</p>
+          </article>
+        </div>
+
+        <p class="relevance">
+          <strong>Medical relevance:</strong> understand how resistance emerges and spreads, then translate that
+          knowledge into strategies that reduce antimicrobial selection pressure.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH HIGHLIGHTS (diagrams) ============
+         Click any diagram on the page to enlarge it.
+         To swap a diagram, replace the file in images/research/ (same name) or edit the src below. -->
+    <section id="highlights" class="section alt">
+      <div class="container">
+        <h2>Research Highlights</h2>
+
+        <!-- Mechanism -->
+        <div class="feature">
+          <div class="feature-text">
+            <h3>Understanding AMR emergence and spread</h3>
+            <p class="feature-q">What is the mechanism of resistance?</p>
+            <ul class="ticks">
+              <li>Resistance in aquaculture pathogens is mediated by plasmids.</li>
+              <li>Multidrug-resistance (MDR) plasmids can transfer among other bacterial species.</li>
+              <li>Plasmids are highly stable in the absence of selective pressure.</li>
+            </ul>
+          </div>
+          <div class="feature-figs">
+            <figure class="figure">
+              <img src="images/research/plasmids-ei-ep.png" width="835" height="403" loading="lazy"
+                   alt="Circular maps of plasmids pEIMS-171561 and pEPMS-18199 showing resistance, transfer and replication genes" />
+              <figcaption>
+                Plasmid maps: pEIMS-171561 from <em>Edwardsiella ictaluri</em> (Abdelhamed et al. 2023) and
+                pEPMS-18199 from <em>E. piscicida</em> (Abdelhamed et al. 2019).
+              </figcaption>
+            </figure>
+            <figure class="figure">
+              <img src="images/research/plasmids-ps.png" width="1396" height="1287" loading="lazy"
+                   alt="Circular maps of Plesiomonas shigelloides plasmids pPSMS-171881, pPSMS-171882 and pPSMS-171883" />
+              <figcaption>
+                <em>Plesiomonas shigelloides</em> plasmids pPSMS-171881, -171882 and -171883 (Abdelhamed et al. 2024).
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Drivers -->
+        <div class="feature reverse">
+          <div class="feature-text">
+            <h3>Genetic &amp; environmental drivers of AMR</h3>
+            <ul class="ticks">
+              <li>Identify factors influencing MDR plasmid stability and transfer.</li>
+              <li>Study conducted under realistic catfish farm conditions.</li>
+              <li>Results provide a mechanistic understanding of AMR persistence.</li>
+            </ul>
+          </div>
+          <div class="feature-figs">
+            <figure class="figure figure-portrait">
+              <img src="images/research/plasmid-stability-factors.jpg" width="1024" height="1536" loading="lazy"
+                   alt="Infographic: genetic factors (deletion mutants) and environmental factors affecting MDR plasmid stability and transfer" />
+              <figcaption>Factors affecting MDR plasmid stability and transfer.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="feature">
+          <div class="feature-text">
+            <h3>Risk prediction &amp; decision support</h3>
+            <ul class="ticks">
+              <li>Develop predictive models of AMR emergence and spread.</li>
+              <li>Build decision-support tools for farm-level AMR management.</li>
+            </ul>
+          </div>
+          <div class="feature-figs">
+            <figure class="figure figure-small">
+              <img src="images/research/risk-decision-support.png" width="292" height="439" loading="lazy"
+                   alt="Mobile app concept: assess AMR risk (high, moderate, low) with recommendations for each level" />
+              <figcaption>Farm-level AMR risk assessment and recommendations.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRINCIPAL INVESTIGATOR ============ -->
+    <section id="pi" class="section">
+      <div class="container">
+        <h2>Principal Investigator</h2>
+
+        <article class="pi-card">
+          <!--
+            PHOTO: save the PI's picture as  images/pi.jpg  (square or portrait works best).
+            Until that file exists, the grey placeholder is shown.
+          -->
+          <div class="photo photo-lg">
+            <img src="images/pi.jpg" alt="Photo of the Principal Investigator" onerror="this.remove()" />
+          </div>
+
+          <div class="pi-info">
+            <h3>Dr. [PI Name]</h3>
+            <p class="role">Principal Investigator</p>
+            <p class="bio">
+              Add a short biography here: research interests, position, department and
+              institution.
+            </p>
+            <ul class="contact-list">
+              <li><span>Email</span> <a href="mailto:pi.email@university.edu">pi.email@university.edu</a></li>
+              <li><span>Phone</span> <a href="tel:+000000000000">+00 000 000 0000</a></li>
+              <li><span>Office</span> Department / Building / Room</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ LAB MEMBERS ============ -->
+    <section id="members" class="section alt">
+      <div class="container">
+        <h2>Lab Members</h2>
+        <p class="section-sub">
+          Photos and names are left blank so you can fill them in.
+        </p>
+
+        <div class="members-grid">
+
+          <!--
+            HOW TO EDIT A MEMBER
+            1. Put the photo in the images/ folder (e.g. images/member1.jpg).
+            2. Type the name and role below.
+            To add another member, copy a whole <article class="member"> ... </article> block.
+          -->
+
+          <article class="member">
+            <div class="photo">
+              <img src="images/member1.jpg" alt="" onerror="this.remove()" />
+            </div>
+            <h3 class="name">Name</h3>
+            <p class="member-role">Role / Position</p>
+          </article>
+
+          <article class="member">
+            <div class="photo">
+              <img src="images/member2.jpg" alt="" onerror="this.remove()" />
+            </div>
+            <h3 class="name">Name</h3>
+            <p class="member-role">Role / Position</p>
+          </article>
+
+          <article class="member">
+            <div class="photo">
+              <img src="images/member3.jpg" alt="" onerror="this.remove()" />
+            </div>
+            <h3 class="name">Name</h3>
+            <p class="member-role">Role / Position</p>
+          </article>
+
+          <article class="member">
+            <div class="photo">
+              <img src="images/member4.jpg" alt="" onerror="this.remove()" />
+            </div>
+            <h3 class="name">Name</h3>
+            <p class="member-role">Role / Position</p>
+          </article>
+
+          <article class="member">
+            <div class="photo">
+              <img src="images/member5.jpg" alt="" onerror="this.remove()" />
+            </div>
+            <h3 class="name">Name</h3>
+            <p class="member-role">Role / Position</p>
+          </article>
+
+          <article class="member">
+            <div class="photo">
+              <img src="images/member6.jpg" alt="" onerror="this.remove()" />
+            </div>
+            <h3 class="name">Name</h3>
+            <p class="member-role">Role / Position</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container contact-box">
+        <h2>Contact</h2>
+        <p>
+          For enquiries about research, collaboration or joining the lab, please email
+          <a href="mailto:pi.email@university.edu">pi.email@university.edu</a>.
+        </p>
+        <p class="address">
+          Aquatic Animal Health Management Lab<br />
+          Department / Faculty<br />
+          University, City, Country
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Aquatic Animal Health Management Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Enlarged diagram">
+    <button type="button" class="lb-close" aria-label="Close">&times;</button>
+    <img id="lb-img" alt="" />
+    <p id="lb-cap"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
