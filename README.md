@@ -16,7 +16,7 @@ images/    <- all the PICTURES on the site
 | `pi.json` | PI name, title, photo, email, phone, office, research interests, education | Home |
 | `members.json` | Lab member names, roles, photo file names | Home |
 | `lab.json` | Contact address at the bottom of the Home page | Home |
-| `publications.json` | Papers, plus Google Scholar / ORCID buttons | Publications |
+| `publications.json` | Papers (authors, title, journal, year) | Publications |
 | `activities.json` | Projects, field work, teaching, outreach | Lab Activities |
 | `awards.json` | Awards and honors | Awards & Honors |
 | `gallery.json` | Gallery photo list and captions | Gallery |
@@ -57,8 +57,7 @@ In `content/publications.json`, add before the closing `]`:
       "year": 2025,
       "authors": "Abdelhamed H., Smith J.",
       "title": "Title of the paper about *Edwardsiella ictaluri*",
-      "journal": "Journal Name, 12(3), 100-110",
-      "link": "https://doi.org/..."
+      "journal": "Journal Name, 12(3), 100-110"
     }
 ```
 

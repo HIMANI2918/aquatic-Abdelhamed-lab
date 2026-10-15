@@ -149,30 +149,33 @@ function renderGallery(data) {
 }
 
 function renderPublications(data) {
-  var prof = el("profiles");
-  if (prof) {
-    prof.innerHTML = (data.profiles || []).filter(function (p) { return p.url; }).map(function (p) {
-      return '<a class="btn btn-solid" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.label) + "</a>";
-    }).join("");
-  }
   var host = el("pubs");
   if (!host) return;
 
+  var NOYEAR = "Year not listed";
   var byYear = {};
   (data.publications || []).forEach(function (p) {
-    var y = String(p.year || "Other");
+    var y = String(p.year || "").trim() || NOYEAR;
     (byYear[y] = byYear[y] || []).push(p);
   });
-  var years = Object.keys(byYear).sort(function (a, b) { return b.localeCompare(a, undefined, { numeric: true }); });
+  // newest year first; papers with no year go last
+  var years = Object.keys(byYear).sort(function (a, b) {
+    if (a === NOYEAR) return 1;
+    if (b === NOYEAR) return -1;
+    return b.localeCompare(a, undefined, { numeric: true });
+  });
 
   host.innerHTML = years.map(function (y) {
-    return '<h3 class="year">' + esc(y) + '</h3><ol class="pubs">' +
+    return '<h3 class="year">' + esc(y) + ' <span class="year-count">(' + byYear[y].length + ")</span></h3>" +
+      '<ol class="pubs">' +
       byYear[y].map(function (p) {
+        var title = String(p.title || "").trim();
+        var titleEnd = /[.?!…]$/.test(title) ? "" : ".";
         return "<li>" +
-          '<span class="pub-authors">' + fmt(p.authors) + "</span> (" + esc(p.year) + "). " +
-          '<span class="pub-title">' + fmt(p.title) + "</span> " +
-          (p.journal ? "<em>" + fmt(p.journal) + "</em>. " : "") +
-          (p.link ? '<a class="pub-link" href="' + esc(p.link) + '" target="_blank" rel="noopener">DOI / PDF</a>' : "") +
+          '<span class="pub-authors">' + fmt(p.authors) + "</span>" +
+          (p.year ? " (" + esc(p.year) + ")." : "") + " " +
+          '<span class="pub-title">' + fmt(title) + titleEnd + "</span> " +
+          (p.journal ? "<em>" + fmt(p.journal) + "</em>" : "") +
         "</li>";
       }).join("") + "</ol>";
   }).join("");
