@@ -1,12 +1,11 @@
 {
-  "_help": "Lab members. Each { ... } is one person. Put the photo in images/members/ and type its path in \"photo\". Leave \"photo\" as \"\" for a grey placeholder. To add a person, copy one { ... } block, add a comma after the block above it, and paste.",
+  "_help": "Lab members. Each { ... } is one person. Put the photo in images/members/ and type its path in \"photo\" (a grey placeholder shows until the file exists). To add a person, copy one { ... } block, add a comma after the block above it, and paste.",
 
   "members": [
-    { "name": "Name", "role": "Role / Position", "photo": "images/members/member1.jpg" },
-    { "name": "Name", "role": "Role / Position", "photo": "images/members/member2.jpg" },
-    { "name": "Name", "role": "Role / Position", "photo": "images/members/member3.jpg" },
-    { "name": "Name", "role": "Role / Position", "photo": "images/members/member4.jpg" },
-    { "name": "Name", "role": "Role / Position", "photo": "images/members/member5.jpg" },
-    { "name": "Name", "role": "Role / Position", "photo": "images/members/member6.jpg" }
+    {"name": "Amos Olowookere", "role": "Graduate Research Assistant / Ph.D. Student", "photo": "images/members/amos-olowookere.jpg"},
+    {"name": "Abubakar Isah", "role": "Graduate Research Assistant / Ph.D. Student", "photo": "images/members/abubakar-isah.jpg"},
+    {"name": "Munshi Riman, MS", "role": "Research Associate I", "photo": "images/members/munshi-riman.jpg"},
+    {"name": "Himani Joshi, Ph.D.", "role": "Senior Research Associate", "photo": "images/members/himani-joshi.jpg"},
+    {"name": "Chandrika Hazarika", "role": "Graduate Research Assistant / Ph.D. Student", "photo": "images/members/chandrika-hazarika.jpg"}
   ]
 }
